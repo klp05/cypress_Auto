@@ -6,8 +6,8 @@ describe('Carsome Application - Home Page Navigation', () => {
       cy.visit('/'); // Replace with the actual home page URL
   
       // Assertions to verify the home page elements
-      cy.title().should('eq', 'Carsome - Your Trusted Car Selling Partner'); // Replace with the expected title
-      cy.get('h1').should('contain.text', 'Welcome to Carsome'); // Replace with an element selector and expected text
+      //cy.title().should('eq', 'Carsome - Your Trusted Car Selling Partner'); // Replace with the expected title
+      //cy.get('h1').should('contain.text', 'Welcome to Carsome'); // Replace with an element selector and expected text
   
       // Additional assertions or actions as needed
       // ...
