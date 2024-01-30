@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout code') {
             steps {
-                git branch: 'main' // Replace 'main' with your default branch
+                git url: 'https://github.com/klp05/cypress_Auto', branch: 'main' // Replace 'main' with your default branch
             }
         }
 
